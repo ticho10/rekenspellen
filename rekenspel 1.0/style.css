@@ -1,0 +1,35 @@
+@font-face {
+  font-family: kip;
+  src:url("kipi.otf");
+}
+body{
+  font-family: kip;
+  background-color: lime;
+  color: snow;
+}
+#wrapper{
+  background-color: black;
+  margin: 100px auto;
+  width: 300px;
+  border-style: dashed;
+  border-color: blue;
+  text-align: center;
+}
+#head{
+  font-family: kip;
+  width: 280px;
+  padding: 10px;
+  font-size: 70px;
+}
+
+#myAssignment{
+  font-size: 45px;
+}
+
+#myAnswer{
+  font-family: kip;
+  background-color: lime;
+  color: grey;
+  font-size: 21px;
+
+}
