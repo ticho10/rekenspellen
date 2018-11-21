@@ -1,0 +1,86 @@
+
+
+body {
+  background-color: purple;
+  font-size: 3em;
+  text-align: center;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+#button{
+  border-radius: 5em;
+}
+
+
+table, td {
+  border-style: double;
+  border-color: blue;
+  background-color: yellow;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: green;
+}
+
+button {
+  height: 300px;
+  width: 400px;
+  font-size: 2em;
+  background-color: white;
+  color: black;
+  border: dashed;
+  margin-top: 2em;
+}
+
+#restart {
+  display: none;
+  margin-top: 20px;
+  height: 180px;
+  width: 470px;
+}
+
+#wrapper {
+  background-color: lightgrey;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: lightblue;
+  display: none;
+  margin-top: 4em;
+}
+
+#result {
+  margin-top: 30px;
+  display: none;
+}
+
+@media screen and (max-width: 1400px) {
+  #wrapper {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #wrapper {
+    margin-left: 16%;
+    margin-right: 16%;
+  }
+}
+
+#myAnswer {
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+  margin-left: 25px;
+  font-size: 1em;
+  width: 200px;
+  background-color: pink;
+}
